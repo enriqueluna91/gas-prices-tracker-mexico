@@ -1,0 +1,59 @@
+name: Update gas prices and deploy
+
+on:
+  schedule:
+    # 7:00 AM Mexico City time (UTC-6) = 13:00 UTC
+    - cron: "0 13 * * *"
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run price scraper
+        run: python scripts/cne_precios.py
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      - name: Export prices to JSON
+        run: python scripts/export_prices.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/cne_precios.db site/data/prices.json site/data/stations.json
+          git diff --cached --quiet || git commit -m "chore: update prices for $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

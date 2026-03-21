@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⛽️🇲🇽 Gasolina México</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+        <h1>⛽️🇲🇽 Gasolina México</h1>
+        <p class="date" id="dataDate"></p>
+    </div>
+
+    <div class="sidebar-section">
+        <label class="section-label">Tipo de combustible</label>
+        <div class="fuel-selector" id="fuelSelector">
+            <button class="fuel-btn active" data-fuel="regular">Regular</button>
+            <button class="fuel-btn" data-fuel="premium">Premium</button>
+            <button class="fuel-btn" data-fuel="diesel">Diésel</button>
+        </div>
+    </div>
+
+    <div class="sidebar-section">
+        <label class="section-label">Filtro de precios</label>
+        <div class="price-filter" id="priceFilter">
+            <button class="tier-btn tier-green active" data-tier="cheap">$</button>
+            <button class="tier-btn tier-orange active" data-tier="avg">$$</button>
+            <button class="tier-btn tier-red active" data-tier="expensive">$$$</button>
+        </div>
+    </div>
+
+    <div class="sidebar-section stats-section">
+        <label class="section-label" id="statsLabel">Resumen nacional</label>
+        <div class="stat-grid" id="nationalStats">
+            <div class="stat-card">
+                <span class="stat-value" id="statAvg">--</span>
+                <span class="stat-label">Promedio</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-value" id="statMin">--</span>
+                <span class="stat-label">Más barato</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-value" id="statMax">--</span>
+                <span class="stat-label">Más caro</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-value" id="statStations">--</span>
+                <span class="stat-label">Estaciones</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar-section ranking-section">
+        <label class="section-label">Ranking por estado</label>
+        <div class="ranking-list" id="rankingList"></div>
+    </div>
+
+    <div class="sidebar-footer">
+        <p>Datos de la Comisión Nacional de Energía</p>
+    </div>
+</aside>
+<button class="sidebar-tab" id="sidebarTab">▲</button>
+
+<div id="map"></div>
+
+<div class="search-bar" id="searchBar">
+    <button class="search-toggle" id="searchToggle">🔎</button>
+    <input type="text" id="searchInput" placeholder="Buscar dirección..." autocomplete="off">
+    <div class="search-results" id="searchResults"></div>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<div class="station-card" id="stationCard"></div>
+
+<div class="report-overlay" id="reportOverlay">
+    <div class="report-modal">
+        <button class="report-close" id="reportClose">&times;</button>
+        <h2 class="report-title">Reportar Gasolinera</h2>
+        <div class="report-station-info" id="reportStationInfo"></div>
+
+        <div class="report-field">
+            <label class="report-label">Evidencia fotográfica</label>
+            <p class="report-hint">Toma una foto de la bomba donde se vea claramente el precio y la cantidad despachada. Se requiere al menos 1 foto.</p>
+            <label class="report-file-label" id="reportFileLabel">
+                Seleccionar foto
+                <input type="file" id="reportPhoto" accept="image/*" capture="environment" hidden>
+            </label>
+            <div class="report-preview" id="reportPreview"></div>
+            <p class="report-error" id="photoError"></p>
+        </div>
+
+        <div class="report-field">
+            <label class="report-label" for="reportDescription">Describe el problema</label>
+            <textarea id="reportDescription" class="report-textarea" rows="4" placeholder="Describe lo que observaste en la gasolinera (precio incorrecto, litros incompletos, mal servicio, etc.)"></textarea>
+            <div class="report-char-count">
+                <span id="charCount">0</span> / 50 caracteres mínimo
+            </div>
+            <p class="report-error" id="descError"></p>
+        </div>
+
+        <button class="report-submit" id="reportSubmit">Enviar Reporte</button>
+        <div class="report-status" id="reportStatus"></div>
+    </div>
+</div>
+
+<div class="debug-panel" id="debugPanel">
+    <button class="debug-close" id="debugClose">&times;</button>
+    <div class="debug-title">Debug Menu</div>
+    <div class="debug-row">
+        <span class="debug-label">Zoom</span>
+        <span class="debug-value" id="debugZoom">--</span>
+    </div>
+    <div class="debug-row">
+        <span class="debug-label">Radio visible</span>
+        <span class="debug-value" id="debugRadius">--</span>
+    </div>
+    <div class="debug-row">
+        <span class="debug-label">Centro</span>
+        <span class="debug-value" id="debugCenter">--</span>
+    </div>
+    <div class="debug-credit">Vibecoded by Enrique Rdz 2026. En Memoria de Gaspard y Lila 🐶🐶</div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
