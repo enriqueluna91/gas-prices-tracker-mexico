@@ -12,6 +12,18 @@
     const EMAILJS_SERVICE_ID = "service_3jm6a2o";
     const EMAILJS_TEMPLATE_ID = "template_xr2hzvi";
 
+    // ── Firebase config (fill in after creating your Firebase project) ──
+    const FIREBASE_CONFIG = {
+        apiKey:            "AIzaSyCY9spU7jg-44o8jnzPseJ155fLA0pJRA8",
+        authDomain:        "gas-prices-mexico-8d4dc.firebaseapp.com",
+        projectId:         "gas-prices-mexico-8d4dc",
+        storageBucket:     "gas-prices-mexico-8d4dc.firebasestorage.app",
+        messagingSenderId: "699313484150",
+        appId:             "1:699313484150:web:ebf46620cc796c1584ca57",
+    };
+
+    let votesEnabled = false;
+
     // Zoom thresholds for the crossfade
     const FADE_START = 7;
     const FADE_END   = 9;
@@ -71,6 +83,8 @@
 
         document.getElementById("dataDate").textContent =
             formatDate(pricesData.date);
+
+        votesEnabled = Votes.initVotes(FIREBASE_CONFIG);
 
         setupFuelSelector();
         setupPriceFilter();
@@ -349,6 +363,7 @@
 
         const card = document.getElementById("stationCard");
         const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lon}`;
+        const localVote = Votes.getLocalVote(s.code);
 
         card.innerHTML = `
             <button class="card-close" id="cardClose">&times;</button>
@@ -364,8 +379,8 @@
             <div class="card-actions">
                 <a class="card-btn card-btn-primary" href="${mapsUrl}" target="_blank" rel="noopener">Direcciones 🏎️</a>
                 <button class="card-btn card-btn-report" id="btnReportar">Reportar ⚠️</button>
-                <button class="card-btn card-btn-disabled card-btn-emoji" disabled>👍🏻</button>
-                <button class="card-btn card-btn-disabled card-btn-emoji" disabled>👎🏻</button>
+                <button class="card-btn card-btn-vote card-btn-emoji${localVote === "up" ? " voted" : ""}" id="btnThumbUp">👍🏻 <span class="vote-count" id="countUp">·</span></button>
+                <button class="card-btn card-btn-vote card-btn-emoji${localVote === "down" ? " voted" : ""}" id="btnThumbDown">👎🏻 <span class="vote-count" id="countDown">·</span></button>
             </div>
         `;
 
@@ -375,6 +390,33 @@
         document.getElementById("btnReportar").addEventListener("click", () => {
             openReportModal(s, mapsUrl);
         });
+
+        if (votesEnabled) {
+            Votes.getVoteCounts(s.code).then((counts) => {
+                document.getElementById("countUp").textContent = counts.up || 0;
+                document.getElementById("countDown").textContent = counts.down || 0;
+            });
+        } else {
+            document.getElementById("countUp").textContent = "0";
+            document.getElementById("countDown").textContent = "0";
+        }
+
+        document.getElementById("btnThumbUp").addEventListener("click", () => handleVote(s.code, "up"));
+        document.getElementById("btnThumbDown").addEventListener("click", () => handleVote(s.code, "down"));
+    }
+
+    async function handleVote(code, type) {
+        const newVote = await Votes.castVote(code, type);
+        const btnUp = document.getElementById("btnThumbUp");
+        const btnDown = document.getElementById("btnThumbDown");
+        if (!btnUp || !btnDown) return;
+
+        btnUp.classList.toggle("voted", newVote === "up");
+        btnDown.classList.toggle("voted", newVote === "down");
+
+        const counts = await Votes.getVoteCounts(code);
+        document.getElementById("countUp").textContent = counts.up || 0;
+        document.getElementById("countDown").textContent = counts.down || 0;
     }
 
     function closeStationCard() {
