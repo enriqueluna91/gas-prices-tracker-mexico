@@ -35,7 +35,7 @@
             minZoom: 4,
             maxZoom: 18,
             zoomControl: false,
-            preferCanvas: true,
+            renderer: L.canvas({ tolerance: 15 }),
         });
 
         L.control.zoom({ position: "topright" }).addTo(map);
@@ -222,7 +222,7 @@
             const tier = classifyStation(price, stateAvg);
 
             const marker = L.circleMarker([s.lat, s.lon], {
-                radius: 5,
+                radius: isMobile() ? 7 : 5,
                 fillColor: TIER_COLORS[tier],
                 fillOpacity: 0.9,
                 color: "#0D1321",

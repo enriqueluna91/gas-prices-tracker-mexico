@@ -1,6 +1,8 @@
 name: Update gas prices and deploy
 
 on:
+  push:
+    branches: [main]
   schedule:
     # 7:00 AM Mexico City time (UTC-6) = 13:00 UTC
     - cron: "0 13 * * *"
