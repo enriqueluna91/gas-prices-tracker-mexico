@@ -1,69 +1,69 @@
 {
-  "date": "2026-03-13",
-  "generated_at": "2026-03-14",
+  "date": "2026-03-21",
+  "generated_at": "2026-03-21",
   "states": {
     "MX-AGU": {
       "name": "Aguascalientes",
       "entidad_id": "01",
       "regular": {
-        "avg": 23.89,
-        "min": 22.93,
+        "avg": 23.92,
+        "min": 22.99,
         "max": 24.99,
-        "stations": 197
+        "stations": 199
       },
       "premium": {
-        "avg": 26.19,
-        "min": 24.49,
-        "max": 28.56,
-        "stations": 197
+        "avg": 27.25,
+        "min": 24.79,
+        "max": 29.62,
+        "stations": 199
       },
       "diesel": {
-        "avg": 27.94,
+        "avg": 28.52,
         "min": 25.7,
-        "max": 30.72,
-        "stations": 159
+        "max": 31.23,
+        "stations": 158
       }
     },
     "MX-BCN": {
       "name": "Baja California",
       "entidad_id": "02",
       "regular": {
-        "avg": 22.93,
-        "min": 20.47,
+        "avg": 22.94,
+        "min": 20.75,
         "max": 25.49,
-        "stations": 605
+        "stations": 606
       },
       "premium": {
-        "avg": 25.51,
-        "min": 22.45,
-        "max": 27.09,
-        "stations": 572
+        "avg": 26.65,
+        "min": 22.99,
+        "max": 29.19,
+        "stations": 579
       },
       "diesel": {
-        "avg": 27.03,
+        "avg": 27.49,
         "min": 21.99,
-        "max": 28.99,
-        "stations": 389
+        "max": 29.35,
+        "stations": 392
       }
     },
     "MX-BCS": {
       "name": "Baja California Sur",
       "entidad_id": "03",
       "regular": {
-        "avg": 24.29,
+        "avg": 24.27,
         "min": 22.87,
-        "max": 27.27,
-        "stations": 181
+        "max": 25.5,
+        "stations": 180
       },
       "premium": {
-        "avg": 26.82,
-        "min": 24.95,
-        "max": 29.74,
+        "avg": 27.97,
+        "min": 26.15,
+        "max": 30.01,
         "stations": 171
       },
       "diesel": {
-        "avg": 29.06,
-        "min": 26.09,
+        "avg": 29.34,
+        "min": 26.99,
         "max": 33.95,
         "stations": 141
       }
@@ -78,14 +78,14 @@
         "stations": 125
       },
       "premium": {
-        "avg": 25.9,
-        "min": 24.19,
-        "max": 26.89,
+        "avg": 27.56,
+        "min": 24.89,
+        "max": 28.29,
         "stations": 118
       },
       "diesel": {
-        "avg": 28.21,
-        "min": 25.19,
+        "avg": 28.83,
+        "min": 26.53,
         "max": 29.54,
         "stations": 124
       }
@@ -94,43 +94,43 @@
       "name": "Coahuila",
       "entidad_id": "05",
       "regular": {
-        "avg": 23.6,
-        "min": 18.9,
+        "avg": 23.69,
+        "min": 18.99,
         "max": 26.99,
-        "stations": 460
+        "stations": 463
       },
       "premium": {
-        "avg": 26.39,
-        "min": 20.9,
-        "max": 28.49,
-        "stations": 444
+        "avg": 27.17,
+        "min": 21.95,
+        "max": 29.49,
+        "stations": 448
       },
       "diesel": {
-        "avg": 27.91,
+        "avg": 28.6,
         "min": 22.1,
-        "max": 29.99,
-        "stations": 281
+        "max": 30.0,
+        "stations": 283
       }
     },
     "MX-COL": {
       "name": "Colima",
       "entidad_id": "06",
       "regular": {
-        "avg": 23.82,
+        "avg": 23.83,
         "min": 22.16,
         "max": 25.56,
-        "stations": 128
+        "stations": 129
       },
       "premium": {
-        "avg": 25.94,
+        "avg": 27.38,
         "min": 23.55,
-        "max": 27.23,
-        "stations": 126
+        "max": 28.99,
+        "stations": 128
       },
       "diesel": {
-        "avg": 28.24,
+        "avg": 28.61,
         "min": 24.35,
-        "max": 29.59,
+        "max": 29.65,
         "stations": 111
       }
     },
@@ -138,65 +138,65 @@
       "name": "Chiapas",
       "entidad_id": "07",
       "regular": {
-        "avg": 23.74,
+        "avg": 23.75,
         "min": 19.59,
-        "max": 25.83,
+        "max": 25.5,
         "stations": 341
       },
       "premium": {
-        "avg": 25.33,
+        "avg": 27.03,
         "min": 17.67,
-        "max": 27.44,
-        "stations": 328
+        "max": 29.79,
+        "stations": 330
       },
       "diesel": {
-        "avg": 28.02,
+        "avg": 28.58,
         "min": 20.5,
-        "max": 30.07,
-        "stations": 298
+        "max": 30.99,
+        "stations": 299
       }
     },
     "MX-CHH": {
       "name": "Chihuahua",
       "entidad_id": "08",
       "regular": {
-        "avg": 22.3,
+        "avg": 22.33,
         "min": 17.99,
         "max": 27.0,
-        "stations": 579
+        "stations": 584
       },
       "premium": {
-        "avg": 24.45,
-        "min": 20.35,
-        "max": 28.99,
-        "stations": 458
+        "avg": 25.42,
+        "min": 20.59,
+        "max": 31.24,
+        "stations": 464
       },
       "diesel": {
-        "avg": 27.78,
+        "avg": 28.11,
         "min": 23.79,
-        "max": 31.44,
-        "stations": 389
+        "max": 31.99,
+        "stations": 390
       }
     },
     "MX-CMX": {
       "name": "Ciudad de México",
       "entidad_id": "09",
       "regular": {
-        "avg": 23.78,
+        "avg": 23.79,
         "min": 21.19,
         "max": 24.0,
-        "stations": 372
+        "stations": 374
       },
       "premium": {
-        "avg": 25.99,
+        "avg": 27.51,
         "min": 23.1,
-        "max": 27.49,
-        "stations": 365
+        "max": 29.19,
+        "stations": 367
       },
       "diesel": {
-        "avg": 27.52,
+        "avg": 28.24,
         "min": 23.3,
-        "max": 29.29,
+        "max": 29.99,
         "stations": 170
       }
     },
@@ -204,21 +204,21 @@
       "name": "Durango",
       "entidad_id": "10",
       "regular": {
-        "avg": 23.96,
-        "min": 21.99,
+        "avg": 24.08,
+        "min": 22.44,
         "max": 25.84,
-        "stations": 215
+        "stations": 216
       },
       "premium": {
-        "avg": 26.52,
-        "min": 23.97,
-        "max": 27.9,
-        "stations": 192
+        "avg": 27.79,
+        "min": 25.48,
+        "max": 29.3,
+        "stations": 195
       },
       "diesel": {
-        "avg": 28.58,
-        "min": 24.96,
-        "max": 30.19,
+        "avg": 29.26,
+        "min": 25.9,
+        "max": 30.8,
         "stations": 194
       }
     },
@@ -226,131 +226,131 @@
       "name": "Guanajuato",
       "entidad_id": "11",
       "regular": {
-        "avg": 23.82,
+        "avg": 23.86,
         "min": 22.56,
-        "max": 24.99,
-        "stations": 718
+        "max": 27.99,
+        "stations": 720
       },
       "premium": {
-        "avg": 26.52,
-        "min": 23.76,
-        "max": 28.05,
-        "stations": 688
+        "avg": 27.33,
+        "min": 24.25,
+        "max": 29.89,
+        "stations": 693
       },
       "diesel": {
-        "avg": 28.14,
+        "avg": 28.64,
         "min": 21.4,
-        "max": 29.99,
-        "stations": 639
+        "max": 32.99,
+        "stations": 641
       }
     },
     "MX-GRO": {
       "name": "Guerrero",
       "entidad_id": "12",
       "regular": {
-        "avg": 23.85,
+        "avg": 23.91,
         "min": 22.59,
-        "max": 25.8,
+        "max": 35.35,
         "stations": 235
       },
       "premium": {
-        "avg": 25.96,
-        "min": 23.69,
-        "max": 27.99,
-        "stations": 236
+        "avg": 27.45,
+        "min": 24.62,
+        "max": 29.07,
+        "stations": 240
       },
       "diesel": {
-        "avg": 28.19,
+        "avg": 28.61,
         "min": 24.99,
-        "max": 29.86,
-        "stations": 190
+        "max": 30.25,
+        "stations": 192
       }
     },
     "MX-HID": {
       "name": "Hidalgo",
       "entidad_id": "13",
       "regular": {
-        "avg": 23.63,
-        "min": 21.86,
-        "max": 24.64,
-        "stations": 316
+        "avg": 23.66,
+        "min": 22.84,
+        "max": 24.99,
+        "stations": 315
       },
       "premium": {
-        "avg": 25.24,
+        "avg": 26.67,
         "min": 22.99,
-        "max": 27.49,
+        "max": 29.19,
         "stations": 292
       },
       "diesel": {
-        "avg": 27.78,
+        "avg": 28.33,
         "min": 23.99,
-        "max": 29.5,
-        "stations": 277
+        "max": 29.99,
+        "stations": 274
       }
     },
     "MX-JAL": {
       "name": "Jalisco",
       "entidad_id": "14",
       "regular": {
-        "avg": 23.95,
-        "min": 19.73,
-        "max": 27.5,
-        "stations": 966
+        "avg": 23.99,
+        "min": 20.79,
+        "max": 26.99,
+        "stations": 964
       },
       "premium": {
-        "avg": 26.41,
+        "avg": 27.46,
         "min": 20.98,
-        "max": 28.81,
-        "stations": 928
+        "max": 29.98,
+        "stations": 930
       },
       "diesel": {
-        "avg": 27.76,
+        "avg": 28.27,
         "min": 19.99,
-        "max": 29.99,
-        "stations": 789
+        "max": 31.24,
+        "stations": 787
       }
     },
     "MX-MEX": {
       "name": "Estado de México",
       "entidad_id": "15",
       "regular": {
-        "avg": 23.68,
-        "min": 21.98,
-        "max": 29.99,
-        "stations": 1209
+        "avg": 23.7,
+        "min": 22.0,
+        "max": 27.99,
+        "stations": 1215
       },
       "premium": {
-        "avg": 25.56,
+        "avg": 27.03,
         "min": 23.0,
-        "max": 28.89,
-        "stations": 1175
+        "max": 29.98,
+        "stations": 1204
       },
       "diesel": {
-        "avg": 27.7,
+        "avg": 28.25,
         "min": 23.0,
-        "max": 30.0,
-        "stations": 983
+        "max": 31.99,
+        "stations": 991
       }
     },
     "MX-MIC": {
       "name": "Michoacán",
       "entidad_id": "16",
       "regular": {
-        "avg": 23.93,
+        "avg": 23.96,
         "min": 21.09,
         "max": 24.99,
         "stations": 528
       },
       "premium": {
-        "avg": 26.1,
+        "avg": 27.67,
         "min": 23.79,
-        "max": 27.99,
-        "stations": 516
+        "max": 29.49,
+        "stations": 519
       },
       "diesel": {
-        "avg": 28.58,
+        "avg": 29.1,
         "min": 22.29,
-        "max": 30.43,
+        "max": 30.53,
         "stations": 494
       }
     },
@@ -358,86 +358,86 @@
       "name": "Morelos",
       "entidad_id": "17",
       "regular": {
-        "avg": 23.74,
+        "avg": 23.78,
         "min": 22.39,
         "max": 24.39,
-        "stations": 182
+        "stations": 185
       },
       "premium": {
-        "avg": 25.35,
-        "min": 23.9,
-        "max": 26.99,
-        "stations": 179
+        "avg": 27.08,
+        "min": 23.99,
+        "max": 28.59,
+        "stations": 183
       },
       "diesel": {
-        "avg": 27.47,
+        "avg": 28.17,
         "min": 23.99,
-        "max": 28.79,
-        "stations": 157
+        "max": 31.32,
+        "stations": 158
       }
     },
     "MX-NAY": {
       "name": "Nayarit",
       "entidad_id": "18",
       "regular": {
-        "avg": 24.08,
+        "avg": 24.11,
         "min": 22.59,
         "max": 25.49,
         "stations": 162
       },
       "premium": {
-        "avg": 26.58,
-        "min": 24.89,
-        "max": 27.99,
-        "stations": 148
+        "avg": 27.77,
+        "min": 24.99,
+        "max": 29.39,
+        "stations": 150
       },
       "diesel": {
-        "avg": 28.53,
+        "avg": 29.1,
         "min": 26.35,
-        "max": 29.99,
-        "stations": 137
+        "max": 30.49,
+        "stations": 139
       }
     },
     "MX-NLE": {
       "name": "Nuevo León",
       "entidad_id": "19",
       "regular": {
-        "avg": 23.89,
-        "min": 20.99,
+        "avg": 23.96,
+        "min": 21.19,
         "max": 27.39,
-        "stations": 722
+        "stations": 723
       },
       "premium": {
-        "avg": 26.99,
-        "min": 23.29,
-        "max": 28.19,
-        "stations": 701
+        "avg": 27.64,
+        "min": 23.49,
+        "max": 29.49,
+        "stations": 705
       },
       "diesel": {
-        "avg": 27.4,
-        "min": 21.5,
-        "max": 29.52,
-        "stations": 368
+        "avg": 27.71,
+        "min": 17.5,
+        "max": 30.0,
+        "stations": 369
       }
     },
     "MX-OAX": {
       "name": "Oaxaca",
       "entidad_id": "20",
       "regular": {
-        "avg": 24.05,
-        "min": 22.99,
+        "avg": 24.07,
+        "min": 23.39,
         "max": 25.1,
-        "stations": 281
+        "stations": 282
       },
       "premium": {
-        "avg": 26.46,
-        "min": 24.39,
-        "max": 27.99,
+        "avg": 27.86,
+        "min": 25.16,
+        "max": 30.0,
         "stations": 269
       },
       "diesel": {
-        "avg": 28.84,
-        "min": 25.29,
+        "avg": 29.34,
+        "min": 22.99,
         "max": 30.49,
         "stations": 273
       }
@@ -446,41 +446,41 @@
       "name": "Puebla",
       "entidad_id": "21",
       "regular": {
-        "avg": 23.63,
-        "min": 22.19,
+        "avg": 23.71,
+        "min": 22.59,
         "max": 25.93,
-        "stations": 601
+        "stations": 606
       },
       "premium": {
-        "avg": 25.16,
+        "avg": 26.66,
         "min": 23.4,
-        "max": 26.99,
-        "stations": 571
+        "max": 29.34,
+        "stations": 575
       },
       "diesel": {
-        "avg": 27.57,
-        "min": 23.99,
-        "max": 29.99,
-        "stations": 521
+        "avg": 28.24,
+        "min": 23.03,
+        "max": 30.15,
+        "stations": 522
       }
     },
     "MX-QUE": {
       "name": "Querétaro",
       "entidad_id": "22",
       "regular": {
-        "avg": 23.64,
+        "avg": 23.66,
         "min": 22.39,
-        "max": 25.69,
+        "max": 24.99,
         "stations": 362
       },
       "premium": {
-        "avg": 25.72,
+        "avg": 27.12,
         "min": 23.29,
-        "max": 27.99,
-        "stations": 360
+        "max": 29.49,
+        "stations": 362
       },
       "diesel": {
-        "avg": 27.81,
+        "avg": 28.35,
         "min": 23.29,
         "max": 29.99,
         "stations": 310
@@ -490,20 +490,20 @@
       "name": "Quintana Roo",
       "entidad_id": "23",
       "regular": {
-        "avg": 24.68,
-        "min": 23.8,
-        "max": 26.5,
+        "avg": 24.82,
+        "min": 23.95,
+        "max": 26.9,
         "stations": 244
       },
       "premium": {
-        "avg": 26.54,
-        "min": 24.73,
-        "max": 26.99,
+        "avg": 28.07,
+        "min": 24.48,
+        "max": 28.68,
         "stations": 229
       },
       "diesel": {
-        "avg": 29.1,
-        "min": 26.19,
+        "avg": 29.42,
+        "min": 24.48,
         "max": 30.5,
         "stations": 204
       }
@@ -512,21 +512,21 @@
       "name": "San Luis Potosí",
       "entidad_id": "24",
       "regular": {
-        "avg": 23.93,
-        "min": 17.64,
+        "avg": 23.95,
+        "min": 22.99,
         "max": 24.74,
-        "stations": 301
+        "stations": 300
       },
       "premium": {
-        "avg": 25.88,
+        "avg": 26.76,
         "min": 22.99,
-        "max": 27.49,
+        "max": 28.63,
         "stations": 273
       },
       "diesel": {
-        "avg": 27.85,
+        "avg": 28.19,
         "min": 20.96,
-        "max": 29.69,
+        "max": 29.89,
         "stations": 281
       }
     },
@@ -535,21 +535,21 @@
       "entidad_id": "25",
       "regular": {
         "avg": 23.96,
-        "min": 21.89,
+        "min": 22.49,
         "max": 27.5,
-        "stations": 562
+        "stations": 565
       },
       "premium": {
-        "avg": 26.41,
+        "avg": 27.51,
         "min": 23.99,
-        "max": 27.9,
-        "stations": 516
+        "max": 98.95,
+        "stations": 524
       },
       "diesel": {
-        "avg": 28.35,
+        "avg": 28.75,
         "min": 23.99,
-        "max": 29.95,
-        "stations": 441
+        "max": 58.49,
+        "stations": 444
       }
     },
     "MX-SON": {
@@ -559,40 +559,40 @@
         "avg": 23.12,
         "min": 18.69,
         "max": 25.99,
-        "stations": 534
+        "stations": 535
       },
       "premium": {
-        "avg": 26.1,
+        "avg": 27.02,
         "min": 21.79,
         "max": 29.99,
-        "stations": 503
+        "stations": 509
       },
       "diesel": {
-        "avg": 28.19,
-        "min": 24.45,
-        "max": 29.99,
-        "stations": 360
+        "avg": 28.56,
+        "min": 24.59,
+        "max": 30.27,
+        "stations": 361
       }
     },
     "MX-TAB": {
       "name": "Tabasco",
       "entidad_id": "27",
       "regular": {
-        "avg": 23.7,
+        "avg": 23.77,
         "min": 20.35,
-        "max": 24.91,
+        "max": 28.59,
         "stations": 245
       },
       "premium": {
-        "avg": 25.17,
+        "avg": 26.89,
         "min": 22.4,
-        "max": 27.68,
-        "stations": 233
+        "max": 28.59,
+        "stations": 239
       },
       "diesel": {
-        "avg": 27.84,
+        "avg": 28.26,
         "min": 21.65,
-        "max": 29.95,
+        "max": 29.99,
         "stations": 201
       }
     },
@@ -600,21 +600,21 @@
       "name": "Tamaulipas",
       "entidad_id": "28",
       "regular": {
-        "avg": 21.98,
+        "avg": 22.01,
         "min": 18.33,
-        "max": 24.39,
-        "stations": 586
+        "max": 25.0,
+        "stations": 587
       },
       "premium": {
-        "avg": 23.95,
+        "avg": 24.87,
         "min": 17.44,
-        "max": 30.44,
-        "stations": 496
+        "max": 28.49,
+        "stations": 502
       },
       "diesel": {
-        "avg": 27.25,
+        "avg": 27.69,
         "min": 17.05,
-        "max": 29.58,
+        "max": 29.89,
         "stations": 337
       }
     },
@@ -622,65 +622,65 @@
       "name": "Tlaxcala",
       "entidad_id": "29",
       "regular": {
-        "avg": 23.57,
+        "avg": 23.64,
         "min": 21.49,
-        "max": 24.49,
-        "stations": 142
+        "max": 26.2,
+        "stations": 141
       },
       "premium": {
-        "avg": 25.19,
+        "avg": 26.66,
         "min": 23.49,
-        "max": 26.99,
-        "stations": 128
+        "max": 27.99,
+        "stations": 130
       },
       "diesel": {
-        "avg": 27.19,
+        "avg": 27.94,
         "min": 21.5,
-        "max": 29.29,
-        "stations": 132
+        "max": 31.5,
+        "stations": 131
       }
     },
     "MX-VER": {
       "name": "Veracruz",
       "entidad_id": "30",
       "regular": {
-        "avg": 23.74,
+        "avg": 23.8,
         "min": 18.95,
         "max": 27.83,
-        "stations": 797
+        "stations": 798
       },
       "premium": {
-        "avg": 25.24,
+        "avg": 26.61,
         "min": 19.5,
-        "max": 26.99,
+        "max": 28.64,
         "stations": 732
       },
       "diesel": {
-        "avg": 27.81,
+        "avg": 28.37,
         "min": 20.01,
-        "max": 29.99,
-        "stations": 686
+        "max": 30.24,
+        "stations": 688
       }
     },
     "MX-YUC": {
       "name": "Yucatán",
       "entidad_id": "31",
       "regular": {
-        "avg": 23.92,
+        "avg": 23.96,
         "min": 22.99,
         "max": 24.99,
         "stations": 334
       },
       "premium": {
-        "avg": 25.62,
-        "min": 23.9,
-        "max": 26.87,
-        "stations": 316
+        "avg": 27.28,
+        "min": 22.56,
+        "max": 28.49,
+        "stations": 318
       },
       "diesel": {
-        "avg": 28.42,
+        "avg": 28.91,
         "min": 22.93,
-        "max": 29.43,
+        "max": 29.79,
         "stations": 253
       }
     },
@@ -688,22 +688,22 @@
       "name": "Zacatecas",
       "entidad_id": "32",
       "regular": {
-        "avg": 23.99,
-        "min": 22.95,
+        "avg": 24.0,
+        "min": 23.0,
         "max": 25.5,
-        "stations": 222
+        "stations": 224
       },
       "premium": {
-        "avg": 26.3,
-        "min": 24.89,
-        "max": 28.99,
-        "stations": 182
+        "avg": 27.19,
+        "min": 24.99,
+        "max": 29.49,
+        "stations": 184
       },
       "diesel": {
-        "avg": 28.46,
+        "avg": 28.94,
         "min": 24.67,
         "max": 30.05,
-        "stations": 217
+        "stations": 218
       }
     }
   }
