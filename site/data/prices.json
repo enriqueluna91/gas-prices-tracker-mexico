@@ -1,6 +1,6 @@
 {
-  "date": "2026-03-22",
-  "generated_at": "2026-03-22",
+  "date": "2026-03-23",
+  "generated_at": "2026-03-23",
   "states": {
     "MX-AGU": {
       "name": "Aguascalientes",
@@ -12,7 +12,7 @@
         "stations": 199
       },
       "premium": {
-        "avg": 27.51,
+        "avg": 27.55,
         "min": 24.79,
         "max": 31.23,
         "stations": 199
@@ -28,13 +28,13 @@
       "name": "Baja California",
       "entidad_id": "02",
       "regular": {
-        "avg": 22.94,
+        "avg": 22.95,
         "min": 20.75,
         "max": 25.49,
         "stations": 609
       },
       "premium": {
-        "avg": 26.87,
+        "avg": 26.88,
         "min": 22.99,
         "max": 29.79,
         "stations": 580
@@ -78,7 +78,7 @@
         "stations": 125
       },
       "premium": {
-        "avg": 27.68,
+        "avg": 27.69,
         "min": 25.57,
         "max": 28.36,
         "stations": 118
@@ -100,15 +100,15 @@
         "stations": 463
       },
       "premium": {
-        "avg": 27.31,
+        "avg": 27.32,
         "min": 21.95,
         "max": 29.5,
         "stations": 448
       },
       "diesel": {
-        "avg": 28.68,
+        "avg": 28.69,
         "min": 22.1,
-        "max": 30.0,
+        "max": 30.09,
         "stations": 283
       }
     },
@@ -122,7 +122,7 @@
         "stations": 129
       },
       "premium": {
-        "avg": 27.63,
+        "avg": 27.66,
         "min": 23.55,
         "max": 28.99,
         "stations": 128
@@ -140,27 +140,27 @@
       "regular": {
         "avg": 23.75,
         "min": 19.59,
-        "max": 25.5,
+        "max": 25.74,
         "stations": 341
       },
       "premium": {
-        "avg": 27.32,
+        "avg": 27.37,
         "min": 17.67,
         "max": 30.69,
-        "stations": 330
+        "stations": 331
       },
       "diesel": {
-        "avg": 28.66,
+        "avg": 28.68,
         "min": 20.5,
         "max": 30.99,
-        "stations": 299
+        "stations": 300
       }
     },
     "MX-CHH": {
       "name": "Chihuahua",
       "entidad_id": "08",
       "regular": {
-        "avg": 22.32,
+        "avg": 22.33,
         "min": 17.99,
         "max": 27.0,
         "stations": 584
@@ -188,13 +188,13 @@
         "stations": 374
       },
       "premium": {
-        "avg": 27.66,
+        "avg": 27.68,
         "min": 23.1,
         "max": 29.89,
         "stations": 367
       },
       "diesel": {
-        "avg": 28.32,
+        "avg": 28.33,
         "min": 23.3,
         "max": 29.99,
         "stations": 170
@@ -210,13 +210,13 @@
         "stations": 216
       },
       "premium": {
-        "avg": 28.1,
+        "avg": 28.12,
         "min": 25.48,
         "max": 30.25,
         "stations": 195
       },
       "diesel": {
-        "avg": 29.33,
+        "avg": 29.34,
         "min": 25.9,
         "max": 30.98,
         "stations": 194
@@ -226,22 +226,22 @@
       "name": "Guanajuato",
       "entidad_id": "11",
       "regular": {
-        "avg": 23.87,
+        "avg": 23.86,
         "min": 22.56,
         "max": 27.99,
         "stations": 721
       },
       "premium": {
-        "avg": 27.47,
+        "avg": 27.48,
         "min": 24.25,
         "max": 29.89,
-        "stations": 693
+        "stations": 694
       },
       "diesel": {
-        "avg": 28.71,
+        "avg": 28.72,
         "min": 21.4,
         "max": 32.99,
-        "stations": 641
+        "stations": 642
       }
     },
     "MX-GRO": {
@@ -254,13 +254,13 @@
         "stations": 235
       },
       "premium": {
-        "avg": 27.66,
+        "avg": 27.68,
         "min": 24.78,
         "max": 29.13,
         "stations": 240
       },
       "diesel": {
-        "avg": 28.68,
+        "avg": 28.69,
         "min": 24.99,
         "max": 30.25,
         "stations": 192
@@ -276,7 +276,7 @@
         "stations": 315
       },
       "premium": {
-        "avg": 26.87,
+        "avg": 26.89,
         "min": 22.99,
         "max": 29.19,
         "stations": 292
@@ -294,19 +294,19 @@
       "regular": {
         "avg": 23.99,
         "min": 20.79,
-        "max": 27.5,
+        "max": 26.99,
         "stations": 966
       },
       "premium": {
-        "avg": 27.89,
+        "avg": 27.92,
         "min": 20.98,
         "max": 30.69,
         "stations": 932
       },
       "diesel": {
-        "avg": 28.38,
+        "avg": 28.39,
         "min": 19.99,
-        "max": 30.89,
+        "max": 31.0,
         "stations": 791
       }
     },
@@ -320,13 +320,13 @@
         "stations": 1217
       },
       "premium": {
-        "avg": 27.2,
+        "avg": 27.24,
         "min": 23.0,
         "max": 29.98,
         "stations": 1207
       },
       "diesel": {
-        "avg": 28.34,
+        "avg": 28.35,
         "min": 23.0,
         "max": 31.99,
         "stations": 991
@@ -342,13 +342,13 @@
         "stations": 528
       },
       "premium": {
-        "avg": 27.9,
+        "avg": 27.91,
         "min": 23.79,
         "max": 29.99,
         "stations": 519
       },
       "diesel": {
-        "avg": 29.19,
+        "avg": 29.2,
         "min": 22.29,
         "max": 30.79,
         "stations": 494
@@ -364,13 +364,13 @@
         "stations": 185
       },
       "premium": {
-        "avg": 27.27,
+        "avg": 27.31,
         "min": 23.99,
         "max": 28.99,
         "stations": 183
       },
       "diesel": {
-        "avg": 28.29,
+        "avg": 28.32,
         "min": 23.99,
         "max": 31.32,
         "stations": 158
@@ -386,13 +386,13 @@
         "stations": 162
       },
       "premium": {
-        "avg": 28.26,
+        "avg": 28.31,
         "min": 26.49,
         "max": 30.59,
         "stations": 150
       },
       "diesel": {
-        "avg": 29.3,
+        "avg": 29.32,
         "min": 27.29,
         "max": 30.49,
         "stations": 139
@@ -402,13 +402,13 @@
       "name": "Nuevo León",
       "entidad_id": "19",
       "regular": {
-        "avg": 23.96,
+        "avg": 23.97,
         "min": 21.19,
         "max": 27.39,
         "stations": 723
       },
       "premium": {
-        "avg": 27.75,
+        "avg": 27.76,
         "min": 23.49,
         "max": 29.49,
         "stations": 705
@@ -430,13 +430,13 @@
         "stations": 282
       },
       "premium": {
-        "avg": 28.09,
+        "avg": 28.11,
         "min": 25.19,
         "max": 30.0,
         "stations": 269
       },
       "diesel": {
-        "avg": 29.47,
+        "avg": 29.48,
         "min": 25.5,
         "max": 30.69,
         "stations": 273
@@ -449,19 +449,19 @@
         "avg": 23.71,
         "min": 22.59,
         "max": 25.93,
-        "stations": 607
+        "stations": 608
       },
       "premium": {
-        "avg": 26.82,
+        "avg": 26.9,
         "min": 23.4,
         "max": 29.79,
-        "stations": 576
+        "stations": 577
       },
       "diesel": {
-        "avg": 28.29,
+        "avg": 28.32,
         "min": 23.03,
-        "max": 30.15,
-        "stations": 523
+        "max": 30.2,
+        "stations": 524
       }
     },
     "MX-QUE": {
@@ -471,19 +471,19 @@
         "avg": 23.65,
         "min": 22.39,
         "max": 24.99,
-        "stations": 362
+        "stations": 361
       },
       "premium": {
-        "avg": 27.25,
-        "min": 23.29,
+        "avg": 27.28,
+        "min": 23.89,
         "max": 29.99,
-        "stations": 362
+        "stations": 361
       },
       "diesel": {
-        "avg": 28.38,
+        "avg": 28.4,
         "min": 23.29,
-        "max": 29.99,
-        "stations": 310
+        "max": 30.15,
+        "stations": 309
       }
     },
     "MX-ROO": {
@@ -493,19 +493,19 @@
         "avg": 24.84,
         "min": 23.95,
         "max": 26.9,
-        "stations": 244
+        "stations": 245
       },
       "premium": {
-        "avg": 28.16,
-        "min": 24.48,
+        "avg": 28.42,
+        "min": 24.89,
         "max": 29.3,
-        "stations": 229
+        "stations": 230
       },
       "diesel": {
-        "avg": 29.5,
-        "min": 24.48,
+        "avg": 29.55,
+        "min": 26.48,
         "max": 30.5,
-        "stations": 204
+        "stations": 205
       }
     },
     "MX-SLP": {
@@ -518,7 +518,7 @@
         "stations": 299
       },
       "premium": {
-        "avg": 27.01,
+        "avg": 27.02,
         "min": 22.99,
         "max": 29.43,
         "stations": 273
@@ -540,15 +540,15 @@
         "stations": 565
       },
       "premium": {
-        "avg": 27.93,
+        "avg": 27.96,
         "min": 23.99,
         "max": 98.95,
         "stations": 525
       },
       "diesel": {
-        "avg": 28.86,
+        "avg": 28.81,
         "min": 23.99,
-        "max": 58.49,
+        "max": 29.99,
         "stations": 444
       }
     },
@@ -562,13 +562,13 @@
         "stations": 536
       },
       "premium": {
-        "avg": 27.37,
+        "avg": 27.39,
         "min": 21.79,
         "max": 29.99,
         "stations": 511
       },
       "diesel": {
-        "avg": 28.66,
+        "avg": 28.68,
         "min": 24.59,
         "max": 30.66,
         "stations": 362
@@ -584,7 +584,7 @@
         "stations": 245
       },
       "premium": {
-        "avg": 27.16,
+        "avg": 27.18,
         "min": 22.4,
         "max": 28.99,
         "stations": 239
@@ -606,7 +606,7 @@
         "stations": 587
       },
       "premium": {
-        "avg": 25.22,
+        "avg": 25.23,
         "min": 17.44,
         "max": 28.59,
         "stations": 502
@@ -628,13 +628,13 @@
         "stations": 141
       },
       "premium": {
-        "avg": 26.84,
+        "avg": 26.85,
         "min": 23.49,
         "max": 28.46,
         "stations": 130
       },
       "diesel": {
-        "avg": 27.98,
+        "avg": 27.99,
         "min": 21.5,
         "max": 31.5,
         "stations": 131
@@ -644,19 +644,19 @@
       "name": "Veracruz",
       "entidad_id": "30",
       "regular": {
-        "avg": 23.79,
+        "avg": 23.8,
         "min": 18.95,
         "max": 27.83,
-        "stations": 798
+        "stations": 799
       },
       "premium": {
-        "avg": 26.82,
+        "avg": 26.84,
         "min": 19.5,
         "max": 28.71,
         "stations": 732
       },
       "diesel": {
-        "avg": 28.43,
+        "avg": 28.44,
         "min": 20.01,
         "max": 30.54,
         "stations": 688
@@ -672,13 +672,13 @@
         "stations": 334
       },
       "premium": {
-        "avg": 27.33,
+        "avg": 27.35,
         "min": 22.56,
-        "max": 28.49,
+        "max": 29.29,
         "stations": 318
       },
       "diesel": {
-        "avg": 28.91,
+        "avg": 28.93,
         "min": 22.93,
         "max": 29.79,
         "stations": 253
@@ -688,19 +688,19 @@
       "name": "Zacatecas",
       "entidad_id": "32",
       "regular": {
-        "avg": 24.0,
+        "avg": 23.99,
         "min": 23.0,
         "max": 25.5,
-        "stations": 224
+        "stations": 223
       },
       "premium": {
-        "avg": 27.41,
+        "avg": 27.48,
         "min": 24.99,
         "max": 29.79,
         "stations": 184
       },
       "diesel": {
-        "avg": 28.99,
+        "avg": 29.03,
         "min": 24.67,
         "max": 30.59,
         "stations": 218
